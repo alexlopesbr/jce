@@ -1,20 +1,21 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">Sobre</router-link> |
-    <router-link to="/contact">Contato</router-link>
-  </div>
+  <header>
+    <nav id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">Sobre</router-link> |
+      <router-link to="/contact">Contato</router-link>
+    </nav>
+  </header>
 </template>
 
 <script>
 export default {
-  name: 'HeaderHeader',
+  name: 'Header',
 };
 
 </script>
 
 <style scoped>
-/* NAV */
 #nav {
   margin: 0 auto;
   padding: 30px;

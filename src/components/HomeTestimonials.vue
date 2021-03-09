@@ -26,7 +26,6 @@ h2 {
 .testimonials {
   position: relative;
   max-width: 1024px;
-
   padding: 90px 0;
   margin-bottom: 30px;
   border-radius: 50px;
