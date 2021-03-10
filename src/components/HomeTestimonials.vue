@@ -25,12 +25,12 @@ h2 {
 }
 .testimonials {
   position: relative;
-  max-width: 1024px;
-  padding: 90px 0;
+
+  padding: 45px 0;
   margin-bottom: 30px;
   border-radius: 50px;
 
-  background: #9c69e2;
+  background: #b698de;
 }
 
 .testimonials::before {
@@ -42,7 +42,7 @@ h2 {
   width: 60px;
   border-radius: 50px 0 0 50px;
 
-  background-image: linear-gradient(to right, #9c69e2 15px, rgba(255, 0, 0, 0));
+  background-image: linear-gradient(to right, #b698de 15px, rgba(255, 0, 0, 0));
 }
 
 .testimonials::after {
@@ -55,7 +55,7 @@ h2 {
   width: 60px;
   border-radius: 0 50px 50px 0;
 
-  background-image: linear-gradient(to left, #9c69e2 15px, rgba(255, 0, 0, 0));
+  background-image: linear-gradient(to left, #b698de 15px, rgba(255, 0, 0, 0));
 }
 
 ul::-webkit-scrollbar {

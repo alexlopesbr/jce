@@ -43,10 +43,12 @@ ul {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  padding: 0 20px;
 }
 
 .home {
   display: grid;
+  grid-template-columns: minmax(500px, 900px);
   grid-gap: 50px;
 }
 
@@ -63,7 +65,6 @@ h2 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
-  line-height: 130%;
 
   color: #212353;
 }
@@ -71,7 +72,6 @@ h2 {
 h3 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
-  line-height: 130%;
 
   color: #212353;
 }

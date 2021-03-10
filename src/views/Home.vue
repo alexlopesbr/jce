@@ -3,6 +3,7 @@
     <HomeIntro />
     <HomeSobre />
     <HomeTestimonials />
+    <TheMe />
   </div>
 </template>
 
@@ -12,6 +13,7 @@
 import HomeIntro from '@/components/HomeIntro.vue';
 import HomeSobre from '@/components/HomeSobre.vue';
 import HomeTestimonials from '@/components/HomeTestimonials.vue';
+import TheMe from '@/components/TheMe.vue';
 
 export default {
   name: 'Home',
@@ -19,6 +21,7 @@ export default {
     HomeIntro,
     HomeSobre,
     HomeTestimonials,
+    TheMe,
   },
 };
 </script>
