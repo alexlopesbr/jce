@@ -23,14 +23,18 @@ export default {
 </script>
 
 <style scoped>
+.intro {
+  margin: 0 10px;
+}
 .intro__presentation {
   display: grid;
-  grid-template-columns: 1fr 350px;
+  grid-template-columns: 1fr;
 }
 
 img {
   border-radius: 50%;
-  max-width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
 
   filter: drop-shadow(10px 10px 10px #222);
 }

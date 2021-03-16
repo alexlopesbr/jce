@@ -1,5 +1,6 @@
 <template>
   <footer>
+    <hr />
     <section class="footer">
       <div class="local">
         <figure>
@@ -9,7 +10,6 @@
       </div>
 
       <div class="social">
-        <p>Redes Sociais</p>
         <ul>
           <li>
             <figure>
@@ -49,30 +49,34 @@ export default {
 
 <style scoped>
 footer {
-  position: relative;
+  margin-top: 75px;
   top: 255px;
   padding-bottom: 30px;
+  background-color: #ddd;
 }
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   justify-content: space-between;
 
   margin: 0 auto;
 }
 
+p {
+  text-align: center;
+}
+
+.local {
+  margin: 0 auto;
+}
+
 .social {
   margin: 0 auto;
-  text-align: center;
 }
 ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-}
-
-.adress {
-  text-align: right;
 }
 </style>

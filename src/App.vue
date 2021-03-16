@@ -28,7 +28,8 @@ li,
 h1,
 h2,
 h3,
-p {
+p,
+figure {
   margin: 0;
   padding: 0px;
 }
@@ -43,12 +44,13 @@ ul {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  padding: 0 20px;
+  /* padding: 0 20px; */
+  background-color: #ddd;
 }
 
 .home {
   display: grid;
-  grid-template-columns: minmax(500px, 900px);
+  grid-template-columns: minmax(300px, 900px);
   grid-gap: 50px;
 }
 

@@ -21,13 +21,16 @@ export default {
 <style scoped>
 .me {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 img {
+  margin: 0 auto;
   border-radius: 50%;
-  max-width: 300px;
+  max-width: 200px;
   filter: drop-shadow(10px 10px 10px #222);
 }
 </style>

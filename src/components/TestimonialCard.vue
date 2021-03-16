@@ -57,10 +57,10 @@ export default {
 <style scoped>
 .card {
   display: grid;
-  grid-template-columns: 500px;
+  grid-template-columns: 330px;
   grid-gap: 30px;
 
-  padding: 20px;
+  padding: 10px;
 
   background: #ffffff;
   box-shadow: 20px 20px 3px rgba(0, 0, 0, 0.1);
@@ -76,8 +76,8 @@ ul {
 
 blockquote {
   font-family: Avenir, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 180%;
+  font-size: 15px;
+  line-height: 150%;
 }
 
 cite {

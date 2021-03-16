@@ -62,17 +62,19 @@
 <style scoped>
 .sobre {
   display: grid;
-  grid-template-columns: minmax(250px, 1fr) 2fr;
+  /* grid-template-columns: minmax(250px, 1fr) 2fr; */
+  grid-template-columns: 1fr;
   align-items: top;
   grid-gap: 20px;
 
   margin-bottom: 30px;
   padding: 20px;
+  margin: 30px 10px;
 
   border-radius: 50px;
 }
 .sobre--deprecao {
-  background: #a4fbed;
+  background: #6df1db;
 }
 .sobre--ansiedade {
   background: #83cdf7;
@@ -92,8 +94,8 @@
   border-radius: 50px;
   border: 2px solid white;
 
-  background: initial;
-  color: white;
+  background: #b698de;
+  color: black;
 
   transition: 0.3s;
 

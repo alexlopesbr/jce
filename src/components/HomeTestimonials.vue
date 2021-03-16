@@ -28,35 +28,35 @@ h2 {
 
   padding: 45px 0;
   margin-bottom: 30px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 
   background: #b698de;
 }
 
-.testimonials::before {
+/* .testimonials::before {
   position: absolute;
   top: 0;
   content: '';
 
   height: 100%;
-  width: 60px;
+  width: 30px;
   border-radius: 50px 0 0 50px;
 
   background-image: linear-gradient(to right, #b698de 15px, rgba(255, 0, 0, 0));
-}
+} */
 
-.testimonials::after {
+/* .testimonials::after {
   position: absolute;
   top: 0;
   right: 0;
   content: '';
 
   height: 100%;
-  width: 60px;
+  width: 30px;
   border-radius: 0 50px 50px 0;
 
   background-image: linear-gradient(to left, #b698de 15px, rgba(255, 0, 0, 0));
-}
+} */
 
 ul::-webkit-scrollbar {
   height: 10px;
@@ -73,9 +73,10 @@ ul::-webkit-scrollbar-thumb {
 }
 
 button {
-  width: 100%;
+  width: 90%;
   height: 60px;
   margin: 0 auto;
+
   border-radius: 50px;
   border: none;
 
@@ -88,5 +89,6 @@ button {
 
 button:hover {
   background: #c54c36;
+  transform: scale(1.05);
 }
 </style>
