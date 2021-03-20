@@ -1,6 +1,8 @@
 <template>
   <div class="me">
-    <img src="../assets/me.png" alt="" />
+    <figure class="figure">
+      <img src="../assets/me.png" alt="Foto de Júlio César" />
+    </figure>
     <p>
       <b>Júlio César Estarneck</b> <br />
       é hipnólogo e hipnoterapeuta formado pelo Instituto PI Hipnose e Instituto
@@ -19,6 +21,10 @@ export default {
 </script>
 
 <style scoped>
+.figure {
+  display: flex;
+}
+
 .me {
   display: grid;
   grid-template-columns: 1fr;

@@ -45,7 +45,7 @@ ul {
   min-height: 100vh;
   flex-direction: column;
   /* padding: 0 20px; */
-  background-color: #ddd;
+  background-color: #f5f5dc;
 }
 
 .home {

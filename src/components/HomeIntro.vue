@@ -3,16 +3,21 @@
     <div class="intro__presentation">
       <div>
         <h1>
-          Através da Hipnose você pode transformar sua vida. Deixe-me ajudar
-          você.
+          Através da Hipnose você pode transformar sua vida. Escolha essa
+          transformação!
         </h1>
         <p>Online ou Presencial</p>
       </div>
-
-      <img src="../assets/jce.png" alt="" />
+      <figure class="picture">
+        <img src="../assets/jce.png" alt="Foto do Júlio César Hipnoterapeuta" />
+      </figure>
     </div>
-
-    <button class="intro--btn">Agende uma consulta</button>
+    <a
+      href="https://web.whatsapp.com/send?phone=5521988294990"
+      target="_blank"
+      rel="WhatsApp JCE Hipnoterapeuta"
+      ><button class="intro--btn">Agende uma consulta</button></a
+    >
   </section>
 </template>
 
@@ -31,11 +36,19 @@ export default {
   grid-template-columns: 1fr;
 }
 
+h1,
+p {
+  text-align: center;
+}
+
+.picture {
+  display: flex;
+}
+
 img {
   border-radius: 50%;
   max-width: 50%;
   margin: 0 auto;
-
   filter: drop-shadow(10px 10px 10px #222);
 }
 

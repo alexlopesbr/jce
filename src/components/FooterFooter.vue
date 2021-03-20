@@ -52,7 +52,7 @@ footer {
   margin-top: 75px;
   top: 255px;
   padding-bottom: 30px;
-  background-color: #ddd;
+  background-color: #f5f5dc;
 }
 
 .footer {

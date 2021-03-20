@@ -1,7 +1,9 @@
 <template>
   <section>
     <div class="sobre sobre--deprecao">
-      <img src="../assets/depressao.jpeg" alt="depressao" />
+      <figure>
+        <img src="../assets/depressao.jpeg" alt="depressao" />
+      </figure>
       <div>
         <h2>DEPRESSÃO</h2>
 
@@ -20,7 +22,9 @@
     </div>
 
     <div class="sobre sobre--ansiedade">
-      <img src="../assets/ansiedade.jpeg" alt="ansiedade" />
+      <figure>
+        <img src="../assets/ansiedade.jpeg" alt="ansiedade" />
+      </figure>
 
       <div>
         <h2>ANSIEDADE</h2>
@@ -41,7 +45,9 @@
     </div>
 
     <div class="sobre sobre--insonia">
-      <img src="../assets/insonia.jpeg" alt="insonia" />
+      <figure>
+        <img src="../assets/insonia.jpeg" alt="insonia" />
+      </figure>
       <div>
         <h2>INSÔNIA</h2>
 
