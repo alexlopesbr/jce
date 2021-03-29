@@ -5,7 +5,12 @@
       <TestimonialCard />
     </div>
   </section>
-  <button>Conheça mais</button>
+  <a
+    href="https://web.whatsapp.com/send?phone=5521988294990"
+    target="_blank"
+    rel="WhatsApp JCE Hipnoterapeuta"
+    ><button>conheça mais</button></a
+  >
 </template>
 <script>
 import TestimonialCard from '@/components/TestimonialCard.vue';
@@ -57,6 +62,10 @@ h2 {
 
   background-image: linear-gradient(to left, #b698de 15px, rgba(255, 0, 0, 0));
 } */
+
+a {
+  text-align: center;
+}
 
 ul::-webkit-scrollbar {
   height: 10px;

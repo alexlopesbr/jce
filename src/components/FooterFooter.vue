@@ -12,22 +12,30 @@
       <div class="social">
         <ul>
           <li>
-            <figure>
-              <img src="../assets/icoFace.svg" alt="Link para o Facebook" />
-            </figure>
+            <a
+              href="https://www.facebook.com/jcehipnoterapeuta/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="../assets/icoFace.svg" alt="Link para o Facebook"
+            /></a>
           </li>
           <li>
-            <figure>
-              <img
+            <a
+              href="https://www.facebook.com/jcehipnoterapeuta/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
                 src="../assets/icoInstagram.svg"
                 alt="Link para o Instagram"
-              />
-            </figure>
+            /></a>
           </li>
           <li>
-            <figure>
-              <img src="../assets/icoWhatsapp.svg" alt="Link para Whatsapp" />
-            </figure>
+            <a
+              href="https://www.facebook.com/jcehipnoterapeuta/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="../assets/icoWhatsapp.svg" alt="Link para o WhatsApp"
+            /></a>
           </li>
         </ul>
       </div>
@@ -69,6 +77,12 @@ p {
 
 .local {
   margin: 0 auto;
+}
+
+a {
+  cursor: pointer;
+  width: 38px;
+  width: 38px;
 }
 
 .social {

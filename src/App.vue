@@ -1,8 +1,13 @@
 <template>
   <TheHeader />
   <main id="main">
-    <router-view />
+    <router-view v-slot="{ Component }">
+      <transition name="slide" mode="out-in">
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </main>
+
   <FooterFooter />
 </template>
 
@@ -91,5 +96,16 @@ main {
   margin: auto;
 
   flex: 1;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(-30%);
 }
 </style>

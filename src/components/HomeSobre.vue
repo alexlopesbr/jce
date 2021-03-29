@@ -17,7 +17,12 @@
           problema agende uma avaliação clicando abaixo.
         </p>
 
-        <button class="sobre__btn">Agende uma avaliação</button>
+        <a
+          href="https://wa.me/5521988294990?text=Oi.%20Gostaria%20de%20saber%20como%20faço%20para%20agendar%20um%20atendimento."
+          target="_blank"
+          rel="WhatsApp JCE Hipnoterapeuta"
+          ><button class="sobre__btn">Agende uma consulta</button></a
+        >
       </div>
     </div>
 
@@ -40,7 +45,12 @@
           e agende uma avaliação.
         </p>
 
-        <button class="sobre__btn">Agende uma avaliação</button>
+        <a
+          href="https://wa.me/5521988294990?text=Oi.%20Gostaria%20de%20saber%20como%20faço%20para%20agendar%20um%20atendimento."
+          target="_blank"
+          rel="WhatsApp JCE Hipnoterapeuta"
+          ><button class="sobre__btn">Agende uma consulta</button></a
+        >
       </div>
     </div>
 
@@ -59,7 +69,12 @@
           sessão. Volte a dormir tranquilamente sem precisar do famoso
           "remedinho pra dormir". Clique abaixo e agende sua avaliação.
         </p>
-        <button class="sobre__btn">Agende uma avaliação</button>
+        <a
+          href="https://wa.me/5521988294990?text=Oi.%20Gostaria%20de%20saber%20como%20faço%20para%20agendar%20um%20atendimento."
+          target="_blank"
+          rel="WhatsApp JCE Hipnoterapeuta"
+          ><button class="sobre__btn">Agende uma consulta</button></a
+        >
       </div>
     </div>
   </section>
