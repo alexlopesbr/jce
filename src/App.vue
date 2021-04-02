@@ -56,7 +56,8 @@ ul {
 .home {
   display: grid;
   grid-template-columns: minmax(300px, 900px);
-  grid-gap: 50px;
+  grid-template-rows: calc(100vh - 79px) 1fr;
+  align-items: center;
 }
 
 h1 {

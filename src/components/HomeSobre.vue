@@ -90,7 +90,7 @@
 
   margin-bottom: 30px;
   padding: 20px;
-  margin: 30px 10px;
+  margin: 10px;
 
   border-radius: 50px;
 }
