@@ -21,17 +21,15 @@
           </li>
           <li>
             <a
-              href="https://www.facebook.com/jcehipnoterapeuta/"
+              href="https://www.instagram.com/jcehipnoterapeuta/"
               target="_blank"
               rel="noopener noreferrer"
-              ><img
-                src="../assets/icoInstagram.svg"
-                alt="Link para o Instagram"
+              ><img src="../assets/icoInstagram.svg" alt="Link para o Instagram"
             /></a>
           </li>
           <li>
             <a
-              href="https://www.facebook.com/jcehipnoterapeuta/"
+              href="https://wa.me/5521988294990?text=Oi.%20Gostaria%20de%20saber%20como%20faço%20para%20agendar%20um%20atendimento."
               target="_blank"
               rel="noopener noreferrer"
               ><img src="../assets/icoWhatsapp.svg" alt="Link para o WhatsApp"

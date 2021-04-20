@@ -1,5 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
+import SobreDepressao from '../components/SobreDepressao.vue';
+import SobreHipnose from '../components/SobreHipnose.vue';
+import SobreMitos from '../components/SobreMitos.vue';
+import SobreHipnoterapia from '../components/SobreHipnoterapia.vue';
 
 const routes = [
   {
@@ -8,15 +12,18 @@ const routes = [
     component: Home,
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    path: '/sobre',
+    name: 'Sobre',
+    component: () => import(/* webpackChunkName: "sobre" */ '../views/Sobre.vue'),
+    children: [
+      { path: 'depressao', component: SobreDepressao },
+      { path: 'hipnose', component: SobreHipnose },
+      { path: 'mitos', component: SobreMitos },
+      { path: 'hipnoterapia', component: SobreHipnoterapia },
+    ],
   },
   {
-    path: '/contact',
+    path: '/contato',
     name: 'Contato',
     component: () => import('../views/Contato.vue'),
   },

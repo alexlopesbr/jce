@@ -2,8 +2,8 @@
   <header>
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">Sobre</router-link> |
-      <router-link to="/contact">Contato</router-link>
+      <router-link to="/sobre/hipnose">Sobre</router-link> |
+      <router-link to="/contato">Contato</router-link>
     </nav>
   </header>
 </template>
@@ -15,7 +15,7 @@ export default {
 
 </script>
 
-<style scoped>
+<style>
 nav {
   margin: 0 auto;
   padding: 30px;

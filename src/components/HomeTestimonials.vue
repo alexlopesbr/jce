@@ -6,11 +6,11 @@
     </div>
   </section>
   <a
-    href="https://web.whatsapp.com/send?phone=5521988294990"
-    target="_blank"
-    rel="WhatsApp JCE Hipnoterapeuta"
-    ><button>conheça mais</button></a
-  >
+      href="https://wa.me/5521988294990?text=Oi.%20Gostaria%20de%20saber%20como%20faço%20para%20agendar%20um%20atendimento."
+      target="_blank"
+      rel="WhatsApp JCE Hipnoterapeuta"
+      ><button class="intro--btn">Agende uma consulta</button></a
+    >
 </template>
 <script>
 import TestimonialCard from '@/components/TestimonialCard.vue';
